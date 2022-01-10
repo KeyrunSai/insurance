@@ -3,6 +3,7 @@
 ## Project Folder Details
 
 /api - Backend API Code (Node)
+
 /front-end - Frontend code (React)
 
 ## Front-end
