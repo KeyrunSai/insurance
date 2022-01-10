@@ -1,13 +1,16 @@
 const { apiService } = require('../services/api.service');
+const config = require('../config');
+const user = config.user;
+const pwd = config.pwd;
 
 describe('Check for Login', () => {
     test('should login', async () => {
-        let loginStatus = await apiService.validateLogin('Qover', 'Ninja');
+        let loginStatus = await apiService.validateLogin(user, pwd);
         expect(loginStatus).toBe(true);
     })
     test('should not login',  async () => {
         let loginStatus = await apiService.validateLogin('ab', '123');
-        expect(loginStatus).toBe(false);
+        expect(loginStatus).toBe(undefined);
     })
 })
 

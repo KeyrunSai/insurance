@@ -10,6 +10,7 @@ front-end/build
 
 # environment
 api/.env
+front-end/src/.env
 
 # lock json files
 api/package-lock.json
