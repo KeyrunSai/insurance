@@ -7,6 +7,8 @@ const config = require('../config');
 // Loading MongoDB URL
 const dbURL = config.getDBURL();
 
+const login = config.getUser();
+const pwd = config.getPwd();
 
 beforeAll(async () => {
     // MongoDB connection
@@ -25,10 +27,10 @@ describe('Group of tests to check Login', () => {
         expect(loginStatus).toBe(false);
     })
     it('should allow login', async () => {
-        let loginStatus = await validateLogin('Qover', 'Ninja');
+        let loginStatus = await validateLogin(login, pwd);
         expect(loginStatus).toBe(true);
     })
-    it('should allow login', async () => {
+    it('should not allow login', async () => {
         let loginStatus = await validateLogin(undefined, undefined);
         expect(loginStatus).toBe(false);
     })

@@ -9,5 +9,11 @@ module.exports = {
     },
     getDBURL : () => {
         return (process.env.MONGODB_URL || 'mongodb://localhost');
+    },
+    getUser : () => {
+        return (process.env.TEST_USERNAME || 'user')
+    },
+    getPwd: () => {
+        return (process.env.TEST_PASSWORD || 'pwd')
     }
 }
