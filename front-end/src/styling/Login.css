@@ -1,0 +1,130 @@
+.Mask-Login {
+    text-align: center;
+    height: auto;
+    padding: 40px 425px 70px 424.7px;
+    background-image: linear-gradient(122deg, #317bda -6%, #33c3c8);
+}
+
+.q-logo {
+    margin-bottom: 15px;
+    margin-top: 2px;
+}
+
+.Rectangle-Copy {
+    width: 350px;
+    height: 300px;
+    /*margin: 50px 50px 50px 100px;*/
+    margin: auto;
+    padding: 30px;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0 #d4dce2;
+    background-color: #fff;
+}
+
+.Welcome-at-Qover {
+    height: 28px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5b7289;
+}
+
+.input-fields-section {
+    margin-top: 30px;
+}
+
+.form-labels {
+    padding-top: 23px;
+    padding-bottom: 25px;
+}
+
+.input-labels {
+    float: left;
+    font-size: 10px;
+    color: #5b7289;
+}
+
+.input-pwd-section {
+    padding-top: 30px;
+}
+
+.input-fields {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2.5px solid #317bda;
+    width: 96%;
+    padding: 6px;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+
+.div-remember-me {
+    float: left;
+}
+
+.img-remember-me {
+    width: 16px;
+    height: 16px;
+    margin: 0px 3px -4px 0;
+}
+
+.input-remember-me-text {
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5b7289;
+}
+
+.forgot-pwd {
+    float: right;
+    color: #317bda;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.Rectangle-Copy-2 {
+    width: 372px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 3px;
+    border: solid 1px #fff;
+}
+
+.Rectangle-Copy-3 {
+    cursor: pointer;
+    padding: 13px 82.5px 10px;
+    border-radius: 3px;
+    background-color: #317bda;
+}
+
+.Text {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+.Text-Underline {
+    text-decoration: underline;
+}

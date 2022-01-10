@@ -1,0 +1,17 @@
+[
+    {
+        "model_name": "AUDI",
+        "price_in_eur": 250,
+        "percentage": 0.3
+    },
+    {
+        "model_name": "BMW",
+        "price_in_eur": 150,
+        "percentage": 0.4
+    },
+    {
+        "model_name": "PORSCHE",
+        "price_in_eur": 500,
+        "percentage": 0.7
+    }
+]

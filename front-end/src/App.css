@@ -1,0 +1,121 @@
+.title {
+  /* width: 240px; */
+  height: 11px;
+  margin: 0 70px 10px 0;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--blue-grey);
+  float: left;
+  padding:20px;
+}
+
+.signin-button {
+  cursor: pointer;
+}
+
+.Rectangle-22-Copy {
+  /* width: 310px; */
+  height: 2px;
+  margin: 5px 0 0;
+  background-color: #317bda;
+}
+
+.text {
+  /* width: 300px; */
+  height: 21px;
+  margin: 10px 10px 5px 0;
+}
+
+.Rectangle-Copy-3 {
+  /* width: 150px; */
+  height: 25px;
+  margin: 35px 0 0;
+  padding: 15px 82.5px 14px;
+  border-radius: 3px;
+  background-color: #317bda;
+}
+
+.Text {
+  /* width: 145px; */
+  height: 16px;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.Rectangle-Copy-2 {
+  /* width: 350px; */
+  height: 45px;
+  margin: 20px 0 0;
+  padding: 15px 63.5px 14px 64.5px;
+  border-radius: 3px;
+  border: solid 1px #fff;
+}
+
+img.Checked-no-label {
+  width: 16px;
+  height: 16px;
+  margin: 20px 7px 35px 0;
+  object-fit: contain;
+}
+
+.Remember-me {
+  width: 79px;
+  height: 14px;
+  margin: 22px 84px 35px 7px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--blue-grey);
+}
+
+.Forgot-your-password {
+  width: 124px;
+  height: 14px;
+  margin: 22px 0 35px 84px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #317bda;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #317bda;
+  outline: 0;
+  font-size: 1.3rem;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}

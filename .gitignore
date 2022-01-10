@@ -1,0 +1,16 @@
+# dependencies
+api/node_modules
+front-end/node_modules
+
+# production
+front-end/build
+
+# misc
+.DS_Store
+
+# environment
+api/.env
+
+# lock json files
+api/package-lock.json
+front-end/package-lock.json

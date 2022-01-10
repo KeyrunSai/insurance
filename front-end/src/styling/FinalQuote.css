@@ -1,0 +1,156 @@
+.final-qoute {
+    height: 450px;
+    text-align: center;
+}
+
+.Mask-Quote {
+    height: 370px;
+    background-image: url('../assets/background-travel.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+.plan {
+    padding: 20px;
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+.global {
+    width: 350px;
+    height: 480px;
+    margin: 0 15px 30px 0;
+    padding: 5px 0 0;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(72, 72, 72, 0.5);
+    background-color: #31cfda;
+    color: #fff;
+}
+
+.universe {
+    width: 350px;
+    height: 480px;
+    padding: 5px 0 0;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #5f636a;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(72, 72, 72, 0.5);
+}
+
+.float-container {
+    margin-left: 2%;
+    padding-top: 1%;
+}
+
+.float-child {
+    padding: 20px 5px 20px 0px;
+    display: inline-block;
+}
+
+.offer-price {
+    font-size: 35px;
+    font-weight: bold;
+    background-color: #56dae3;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.offer-price-universe {
+    font-size: 35px;
+    font-weight: bold;
+    background-color: #f3feff;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #30cfda;
+}
+
+.offer-context {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.PriceToggle.react-toggle {
+    position: absolute;
+    z-index: 10;
+    left: 20px;
+    bottom: 20px;
+
+}
+
+.react-toggle--checked .react-toggle-track {
+    background-color: #1d99f7 !important;
+}
+
+
+.react-toggle-track {
+    background-color: #1d99f7 !important;
+    border-style: 3px;
+}
+
+.PriceToggle.react-toggle {
+    top: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    position: relative !important;
+    z-index: 0 !important;
+    left: 0px !important;
+    bottom: 0px !important;
+}
+
+.pay {
+    padding: 20px;
+}
+
+.offer-info {
+    padding: 15px;
+    border-style: 1px solid;
+    box-shadow: 0px 0px 1px 0 #5b7289;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.offer-info-normal {
+    font-weight: normal;
+}
+
+.offer-button {
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 15px 10px 15px 5px;
+    background-color: #fff;
+    color: #31cfda;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.offer-btn-valid {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.offer-not-selected {
+    background-color: #31cfda;
+    color: #fff;
+}
+
+.list {
+    margin-top: 20%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.list-txt {
+    text-decoration: underline;
+    color: #31cfda;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
